@@ -1,0 +1,23 @@
+.va-list {
+   list-style: none;
+   padding: 0.5rem 0;
+   margin: 0;
+
+   border-radius: 0.3rem;
+   width: max-content;
+   &.shadow {
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+   }
+   &.outlined {
+      border: 1px solid #dadce0;
+   }
+   &.dark {
+      background-color: #212121;
+   }
+   .va-list-label {
+      text-transform: uppercase;
+      font-size: 0.85em;
+      color: #bdbdbd;
+      padding: 0.4rem 1rem;
+   }
+}

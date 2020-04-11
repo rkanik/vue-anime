@@ -1,0 +1,28 @@
+.va-list {
+   .va-list-item {
+      padding: 0.8rem 1.2rem;
+      cursor: pointer;
+      color: #212121;
+      user-select: none;
+      &:hover,
+      &.active {
+         background-color: #eeeeee;
+      }
+      &.active {
+         color: #00acc1;
+      }
+   }
+   &.dark {
+      .va-list-item {
+         background-color: #212121;
+         color: #bdbdbd;
+         &:hover,
+         &.active {
+            background-color: #313131;
+         }
+         &.active {
+            color: #00acc1;
+         }
+      }
+   }
+}
